@@ -1,12 +1,12 @@
-# lavfit
-Calculate Construct Reliability (CR) and the Average Variance Extracted (AVE) in Lavaan structural models. 
-
-##Installation
+# lavfit  
+Calculate Construct Reliability (CR) and the Average Variance Extracted (AVE) in Lavaan structural models.   
+  
+##Installation  
 This package require the lavaan library (structural equation modeling).  
 Download the lavfit.tar.gz file.  
 In Rstudio, click on the Packages tabs, install and choose install from Package Archive.  
 
-##Usage
+##Usage  
 After the lavaan estimation  
 estim = sem(model,data)  
 or estim = cfa(model,data)  
@@ -14,7 +14,7 @@ or estim = cfa(model,data)
 insert this code  
 lavfit(estim)  
 
-##Example : 
+##Example :   
 library(lavaan)  
 library(lavfit)  
   
